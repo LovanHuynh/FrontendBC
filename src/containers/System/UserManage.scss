@@ -1,23 +1,26 @@
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+.manageuser{
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:first-child {
+        background-color: #0cc452;
+    }
+    
+    tr:nth-child(even) {
+        background-color: white;
+    }
 }
 
-td,
-th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:first-child {
-    background-color: #0cc452;
-}
-
-tr:nth-child(even) {
-    background-color: white;
-}
 
 .btn-edit {
     width: 40px;
@@ -45,4 +48,42 @@ tr:nth-child(even) {
         background-color: transparent !important;
         color: rgb(228, 16, 16) !important;
     }
+}
+
+.modalUserContainer {
+    .modal-header button {
+        background: transparent;
+        border: none;
+        font-size: 28px;
+        color: white;
+
+
+
+    }
+
+    .modal-user-body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+
+
+            input {
+                height: 30px;
+                border-radius: 3px;
+                border: 1px solid grey;
+                outline: none;
+                padding: 0 10px;
+            }
+        }
+
+        .input-container:last-child {
+            width: 100%;
+        }
+    }
+
 }

@@ -1,0 +1,64 @@
+.doctor-extral-infor-container{
+    padding: 0 14px;
+    .content-up{
+        margin-bottom: 10px;
+        .text-address{
+            text-transform: uppercase;
+            color: #333;
+        }
+        .name-clinic{
+            font-weight: 600;
+            color: #333;
+            padding: 4px 0;
+        }
+        .detail-address{
+            font-weight: 600;
+            color: #333;
+        }
+    }
+    .content-down{
+        .short-infor{
+            margin: 10px 0;
+            .detail{
+                margin-left: 3px;
+                cursor: pointer;
+                color: aqua;
+            }
+            .currentcy{
+                margin: 0 5px;
+            }
+        }
+        .title-price{
+            text-transform: uppercase;
+            margin: 10px 0;
+        }
+        .detail-infor{
+            border: 1px solid #ddd;
+            padding: 5px;
+            background-color: #f8f8f8;
+            .price{
+                margin-bottom: 5px;
+                .right{
+                    float: right;
+                }
+            }
+            .note{
+               
+            }
+            
+        }
+        .payment{
+            border: 1px solid #ddd;
+            padding: 5px;
+            background-color:#eee ;
+        }
+        .hiden{
+            margin-top: 10px;
+            span{
+                cursor: pointer;
+                color: aqua;
+            }
+            
+        }
+    }
+}
