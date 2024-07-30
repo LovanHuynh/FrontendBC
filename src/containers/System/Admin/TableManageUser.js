@@ -50,7 +50,7 @@ class TableManageUser extends Component {
         let arrUsers = this.state.userRedux;
         return (
             <React.Fragment>
-                <table id="TableManageUser">
+                <table id="TableManageUser" className='mt-4 mx-1 userRedux'>
                     <tbody>
                         <tr className="">
                             <th>Email</th>
